@@ -57,7 +57,7 @@ sudo apt install kubeadm=1.20.0-00 kubectl=1.20.0-00 kubelet=1.20.0-00 -y
    <kbd>![image](https://github.com/paragpallavsingh/kubernetes-kickstarter/assets/40052830/760276f4-9146-4bc1-aa92-48cc1c0b13f4)</kbd>
 
 
-3. Set up local kubeconfig (both for root user and normal user):
+3. Set up local kubeconfig (both for root user and normal user) after this kubectl command will work for normal user:
 
     ```bash
     mkdir -p $HOME/.kube
